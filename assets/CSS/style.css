@@ -61,19 +61,34 @@ nav {
     cursor: pointer;
 }
 
-.leftDiv {
+.leftDiv, .rightDiv {
     height: 200px;
-    width: 200px;
+    width: 400px;
 }
 
-.rightDiv {
-    height: 200px;
-    width: 200px;
-}
 
 .mainDiv {
     display: flex;
+    justify-content: center;
+    margin-top: 10%
+
 }
+
+.leftDiv h4, .rightDiv h4 {
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+.rightDiv p, .leftDiv p {
+    margin-top: 3%;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+
 @media screen and (max-width: 1225px) {
     .nav-links {
         width: 30%;
