@@ -61,33 +61,6 @@ nav {
     cursor: pointer;
 }
 
-.leftDiv, .rightDiv {
-    height: 200px;
-    width: 400px;
-}
-
-
-.mainDiv {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%
-
-}
-
-.leftDiv h4, .rightDiv h4 {
-    font-weight: bold;
-    font-family: 'IBM Plex Mono', monospace;
-
-}
-
-
-.rightDiv p, .leftDiv p {
-    margin-top: 3%;
-    font-family: 'IBM Plex Mono', monospace;
-
-}
-
-
 
 @media screen and (max-width: 1225px) {
     .nav-links {
@@ -154,6 +127,64 @@ nav {
 }
 
 #myPhoto {
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
 }
+
+/* Contact Page Styles */
+.formDiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.leftDiv, .rightDiv {
+    height: 25%;
+    width: 25%;
+}
+
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%
+
+}
+
+.leftDiv h3, .rightDiv h3 {
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 5%;
+    color: black;
+    text-shadow: 
+        1px 0px 1px #ccc, 0px 1px 1px #eee, 
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+
+}
+
+
+.rightDiv p, .leftDiv p {
+    margin-top: 3%;
+    font-family: 'IBM Plex Mono', monospace;
+    border: #2c2c54 solid 5px;
+    margin: 5%;
+
+}
+
+.rightCurrly, .leftCurrly {
+    color: #2c2c54;
+    font-size: 400px;
+}
+
+
+
+
+
+
+
