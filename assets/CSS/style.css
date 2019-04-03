@@ -129,6 +129,7 @@ nav {
 #myPhoto {
     height: 350px;
     width: 350px;
+    border-radius: 45%;
 }
 
 /* Contact Page Styles */
@@ -137,6 +138,12 @@ nav {
     justify-content: center;
 }
 
+form {
+    margin-top: 10%;
+    background-color: #2c2c54;
+    height: 500px;
+    width: 1000px;
+}
 
 
 .leftDiv, .rightDiv {
@@ -165,6 +172,7 @@ nav {
         5px 4px 1px #ccc, 4px 5px 1px #eee,
         6px 5px 1px #ccc, 5px 6px 1px #eee,
         7px 6px 1px #ccc;
+    text-align: center;
 
 }
 
@@ -182,6 +190,21 @@ nav {
     font-size: 400px;
 }
 
+.leftDiv, .rightDiv, .middleImgDiv {
+    margin-top: 5%;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: #f7f1e3;
+    background-color: #2c2c54;
+    text-align: center;
+    padding-top: 1%;
+  }
 
 
 
