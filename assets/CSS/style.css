@@ -264,10 +264,13 @@ textarea {
      color: #f7f1e3;
      background: #2c2c54;
  }
-#phoneHover:hover {
-    content: 'NOOOOOOO';
 
-    
+
+#phoneHover:after{
+    content:'Phone';
+}
+#phoneHover:hover:after{
+    content:'503-754-3298';
 }
 
 #messageToyou {

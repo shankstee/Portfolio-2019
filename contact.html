@@ -43,14 +43,14 @@
                 <input type="text" name="clientName" id="nameInput" placeholder="Name">
                 <input type="email" name="clientEmail" id="emailInput" placeholder="E-mail">
             </div>
-            <textarea  placeholder="Message"></textarea>
+            <textarea  id ="textArea" placeholder="Message"></textarea>
             <div id="sendDiv">
                 <button id="sendButton">Send</button>
             </div>  
         </form>
         <div class="infoDiv">
-                <a id="phoneHover" href="#" class="linkToSocialMe" target="_blank"><p><i class="fa fa-phone" aria-hidden="true"></i></i><span id="phoneHover">Phone</span></p></a>
-                <a href="#" class="linkToSocialMe" target="_blank"><p><i class="fa fa-envelope" aria-hidden="true"></i>E-mail</p></a>
+                <a href="#" class="linkToSocialMe" target="_blank"><p><i class="fa fa-phone" aria-hidden="true"></i></i><span id="phoneHover"></span></p></a>
+                <a href="mailto:shanks.trae@gmail.com" class="linkToSocialMe" target="_blank"><p><i class="fa fa-envelope" aria-hidden="true"></i>E-mail</p></a>
                 <a href="https://www.linkedin.com/in/trae-shanks-2a1791121/" class="linkToSocialMe" target="_blank"><p><i class="fa fa-linkedin" aria-hidden="true"></i>Linkdin</p></a>
                 <a href="https://github.com/shankstee?tab=overview" class="linkToSocialMe" target="_blank"><p><i class="fa fa-github githubI"></i>Github</p></a>
             </div>
@@ -67,7 +67,7 @@
 
 
 
-
-<script src="assets/javascript/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 </html>
